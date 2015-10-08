@@ -1,4 +1,6 @@
 clear all;
+addpath('Igor2Matlab');
+addpath('Data');
 Band_truth = IBWread('Truncated_50%disperse_truth.ibw');
 Band_truth = Band_truth.y;
 [m,n]=size(Band_truth);
