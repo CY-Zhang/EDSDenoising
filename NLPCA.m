@@ -1,5 +1,5 @@
 
-function ima_fil=NLPCA(num_1,num_2,size,ima_pn)
+function ima_fil=NLPCA(nb_axis,nb_clusters,size,ima_pn)
 
 addpath('functions')
 
@@ -20,8 +20,8 @@ ima_nse_poiss = ima_pn;
 
 param.Patch_width=round(size);
 param.Patch_width_3d=7;
-param.nb_axis=num_1; 
-param.nb_clusters=num_2;
+param.nb_axis=nb_axis; 
+param.nb_clusters=nb_clusters;
 param.eps_stop=1e-1; %loop stoping criterion
 param.epsilon_cond=1e-3; %condition number for Hessian inversion
 param.double_iteration=0;%1 or 2 pass of the whole algorithm
