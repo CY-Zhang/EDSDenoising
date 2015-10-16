@@ -15,7 +15,7 @@ ima_nse_poiss = ima_pn;
 %[dim1,dim2,dim3]=size(ima_nse_poiss);
 %nb_spect_tot=dim3;
 %nb_photons=sum(ima_nse_poiss(:))/(dim1*dim2*dim3)
-
+ 
 %% Parameters:
 
 param.Patch_width=round(size);
