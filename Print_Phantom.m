@@ -1,5 +1,5 @@
 figure1 = figure('Color',[1 1 1]);
-set(figure1,'Position',[0 0 1000 600]);
+set(figure1,'Position',[0 0 1500 900]);
 ima = tight_subplot(3,6,[0.01 0.01],[0.1,0.1],[0.03 0]);
 clims1 = [0,6];
 clims2 = [0,2];
